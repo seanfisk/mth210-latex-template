@@ -28,4 +28,5 @@ env.AppendUnique(PDFLATEXFLAGS='-synctex=1')
 env.SetDefault(TEXMFHOME=os.path.join(os.environ['HOME'], 'texmf'))
 
 pdf = env.PDF('document.tex')
+env.Depends(pdf, 'mathdefs.tex')
 Default(pdf)
