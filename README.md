@@ -1,4 +1,4 @@
-This is my template project for my MTH 210 class at [Grand Valley State University][gvsu]. It is written in LaTeX using [SCons][scons] as a builder. This repository is a fork of my original [scons-latex][scons-latex] template with additional math conventions and definitions used in this class. Updates happen as I find more conventions set forth in the class.
+This is my template project for my MTH 210 course at [Grand Valley State University][gvsu]. It is written in LaTeX using [SCons][scons] as a builder. This repository is a fork of my original [scons-latex][scons-latex] template with additional math conventions and definitions used in this course. Updates happen as I find more conventions set forth in the course.
 
 [gvsu]: http://gvsu.edu/
 [scons-latex]: https://github.com/seanfisk/scons-latex
