@@ -1,6 +1,9 @@
-This is my template project for LaTeX using SCons as a builder. Since
-it is a personal template, it is quite opionated on certain tools,
-such as:
+This is my template project for my MTH 210 class at [Grand Valley State University][gvsu]. It is written in LaTeX using [SCons][scons] as a builder. This repository is a fork of my original [scons-latex][scons-latex] template with additional math conventions and definitions used in this class. Updates happen as I find more conventions set forth in the class.
+
+[gvsu]: http://gvsu.edu/
+[scons-latex]: https://github.com/seanfisk/scons-latex
+
+Since it is a personal template, it is quite opionated on certain tools, such as:
 
 * Use of [SCons][scons] for building the LaTeX document.
 * Use of [LuaTeX][luatex] instead of [pdfTeX][pdftex].
@@ -22,6 +25,4 @@ To see how I use this template to build my PDFs from [Emacs][emacs], please take
 
 [sean-tex-emacs]: https://github.com/seanfisk/emacs/blob/sean/personal/personal-tex.el
 
-**Note:** This template supports multi-file documents. If you change
-  the name of the main document (i.e., `document.tex`), be sure to
-  change the `TeX-master` directory variable in `.dir-locals.el`.
+**Note:** This template supports multi-file documents. If you change the name of the main document (i.e., `document.tex`), be sure to change the `TeX-master` directory variable in `.dir-locals.el`.
