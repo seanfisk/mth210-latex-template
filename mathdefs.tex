@@ -3,3 +3,14 @@
 % Use a centered dot for multiplication.
 \newcommand{\mult}{\cdot}
 \newcommand{\Z}{\mathbb{Z}}
+
+% Create new theorem commands.
+\theoremstyle{plain}
+\newtheorem{theorem}{Theorem}
+\newtheorem{lemma}[theorem]{Lemma}
+\newtheorem{corollary}[theorem]{Corollary}
+\newtheorem{proposition}[theorem]{Proposition}
+\newtheorem*{definition}{Definition}
+
+% By default, the QED symbol is an empty square aligned right. We want it to be a filled square aligned right.
+\renewcommand{\qed}{\hfill\ensuremath{\blacksquare}}
