@@ -2,16 +2,18 @@
 \RequirePackage[l2tabu,orthodox]{nag}
 \documentclass{article}
 
-% Just loading fontspec should cause LuaLaTeX to pick a font that can display most Unicode characters.
-\usepackage{fontspec}
-\usepackage{microtype}
-\usepackage{fullpage}
-\usepackage{mathtools}
-\usepackage{amsthm}
-\usepackage{amssymb}
-\usepackage{tabu}
-\usepackage{fancyref}
-\usepackage{hyperref}
+\usepackage{
+  % Just loading fontspec should cause LuaLaTeX to pick a font that can display most Unicode characters.
+  fontspec,
+  microtype,
+  fullpage,
+  mathtools,
+  amsthm,
+  amssymb,
+  tabu,
+  fancyref,
+  hyperref,
+}
 \hypersetup{hidelinks}
 
 \input{mathdefs.tex}
@@ -23,5 +25,7 @@
 
 \begin{document}
 \maketitle
+
+
 
 \end{document}
